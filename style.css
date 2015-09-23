@@ -1,0 +1,14 @@
+/*
+ * Theme Name: Freifunk Fulda Theme 2015
+ * Description: Ein Childtheme
+ * Author: Daniel Kay
+ * Author URI: http://www.enthusiasm.cc
+ * Template: corpobox-lite 
+ * Version: 1.0
+ * Tags:
+ */
+
+/* Parent Theme */
+@import url( '../corpobox-lite/style.css' );
+
+
