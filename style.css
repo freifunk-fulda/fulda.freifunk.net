@@ -106,6 +106,47 @@ h1 { font-family: 'league_gothic'; letter-spacing: 0.01em; }
 
 
 /**
+ * Custom content boxes
+ */
+
+.ico-box {
+    text-align: center;
+}
+
+.ico-box .fa {
+    font-size: 42px;
+    line-height: 1.5;
+    
+}
+
+/**
+ * Circles ^_^
+ */
+.ico-box .fa {
+    background: #ffb400;
+    color: #444;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+
+.ico-box .box-title {
+    font-size: 0.9em;
+    color: #525252;
+    font-weight: 700;
+    margin: 0 !important;
+    text-transform: uppercase;
+}
+
+.ico-box p {
+    font-size: 16px !important;
+}
+
+
+/**
  * The Event Calendar Widget
  */
 
