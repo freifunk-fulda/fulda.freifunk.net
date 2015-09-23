@@ -105,3 +105,59 @@ h1 { font-family: 'league_gothic'; letter-spacing: 0.01em; }
 }
 
 
+/**
+ * The Event Calendar Widget
+ */
+
+.tribe-events-list-widget ol {
+    margin: 0;
+}
+
+.tribe-events-list-widget ol li {
+    margin-bottom: 20px;
+}
+
+.tribe-events-list-widget .list-date {
+    background-color: #e8e8e8;
+    width: 75px;
+    padding: 3px;
+    margin-right: 10px;
+    color: #636363;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    float: left;
+}
+
+.tribe-events-list-widget .list-date span {
+    display: block;
+    text-align: center;
+}
+
+.tribe-events-list-widget .list-date span.list-dayname {
+    font-size: 0.7em;
+}
+
+.tribe-events-list-widget .list-date span.list-daynumber {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.tribe-events-list-widget .list-date span.list-month {
+    background-color: white;
+    color: #de1367;
+    font-size: 0.8em;   
+    font-weight: bold;
+    padding: 3px;
+}
+
+.tribe-events-list-widget h4.entry-title {
+    clear: none;
+    font-size: 1em;
+}
+
+.tribe-events-list-widget .list-info-link {
+    /*text-align: right;*/
+}
+
+
