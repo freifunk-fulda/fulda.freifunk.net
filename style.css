@@ -12,3 +12,33 @@
 @import url( '../corpobox-lite/style.css' );
 
 
+
+/**
+ * Webfont
+ */
+@font-face {
+    font-family: 'league_gothicitalic';
+    src: url('css/webfonts/leaguegothic-italic-webfont.eot');
+    src: url('css/webfonts/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/webfonts/leaguegothic-italic-webfont.woff2') format('woff2'),
+         url('css/webfonts/leaguegothic-italic-webfont.woff') format('woff'),
+         url('css/webfonts/leaguegothic-italic-webfont.ttf') format('truetype'),
+         url('css/webfonts/leaguegothic-italic-webfont.svg#league_gothicitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'league_gothic';
+    src: url('css/webfonts/leaguegothic-regular-webfont.eot');
+    src: url('css/webfonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/webfonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('css/webfonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('css/webfonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('css/webfonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 { font-family: 'league_gothic'; letter-spacing: 0.01em; }
+
