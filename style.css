@@ -12,6 +12,14 @@
 @import url( '../corpobox-lite/style.css' );
 
 
+/**
+ * Some fixes, perhaps temporary
+ */
+.main-navigation li a { color: #fff; }
+#tagline { display: none; }
+h1.page-title, .call-action-txt span { color: #dc0067 !important; }
+.main-navigation li.current-menu-item a:hover { color: #444; }
+
 
 /**
  * Webfont
