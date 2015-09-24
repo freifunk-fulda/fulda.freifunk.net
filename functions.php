@@ -16,6 +16,11 @@ function fff_enqueue_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'fff_enqueue_scripts' );
+
+
+add_action( 'after_setup_theme', function () {
+    load_child_theme_textdomain( 'corpobox', get_stylesheet_directory() . '/languages' );
+} );
 function fff_icon_widget( $atts ) {
     $atts = shortcode_atts( array(
         'icon'  => 'fa-wordpress',
