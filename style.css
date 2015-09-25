@@ -232,3 +232,13 @@ header.entry-header img.wp-post-image {
 }
 
 
+/**
+ * Footer
+ */
+.site-footer a {
+    color: #009ee0 !important;
+}
+
+.site-footer a:hover {
+    color: #007eb3 !important;
+}
