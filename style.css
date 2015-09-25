@@ -107,6 +107,9 @@ h1 { font-family: 'league_gothic'; letter-spacing: 0.01em; }
     margin-top: 5px;
 }
 
+.breadcrumbs {
+    display: none;
+}
 
 /**
  * Custom content boxes
