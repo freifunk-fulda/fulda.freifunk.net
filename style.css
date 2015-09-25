@@ -145,6 +145,21 @@ h1 { font-family: 'league_gothic'; letter-spacing: 0.01em; }
     font-size: 16px !important;
 }
 
+/**
+ * Call To Action Box
+ */
+.call-to-action {
+    background-color: #ffb200;
+}
+
+.fff-button {
+    background-color: #009ee0;
+}
+
+.fff-button:hover {
+    background-color: #007eb3;
+}
+
 
 /**
  * The Event Calendar Widget
