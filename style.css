@@ -111,6 +111,15 @@ h1 { font-family: 'league_gothic'; letter-spacing: 0.01em; }
     display: none;
 }
 
+
+/**
+ * News Posts
+ */
+header.entry-header img.wp-post-image {
+    display: none;
+}
+
+
 /**
  * Custom content boxes
  */
