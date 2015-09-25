@@ -18,7 +18,10 @@
 .main-navigation li a { color: #fff; }
 #tagline { display: none; }
 h1.page-title, .call-action-txt span { color: #dc0067 !important; }
-.main-navigation li.current-menu-item a:hover { color: #444; }
+.main-navigation li.current-menu-item a:hover,
+.main-navigation li.current-post-ancestor a,
+.main-navigation li.current-menu-parent a,
+.main-navigation li.current-post-parent { color: #444; }
 
 
 /**
