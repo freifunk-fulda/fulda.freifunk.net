@@ -70,3 +70,13 @@ function fff_icon_widget( $atts ) {
 
 add_shortcode( 'fff_icon_widget', 'fff_icon_widget' );
 
+
+/**
+ * Favicon
+ */
+function fff_favicon() {
+    echo '<!--[if IE]><link rel="shortcut icon" href="' . get_bloginfo( 'stylesheet_directory' ) . '/img/favicon.ico"><![endif]-->';
+    echo '<link rel="icon" href="' . get_bloginfo( 'stylesheet_directory' ) . '/img/favicon-196.png" />';
+}
+
+add_action( 'wp_head', 'fff_favicon' );
