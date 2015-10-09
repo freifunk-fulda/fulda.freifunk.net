@@ -54,7 +54,8 @@
 		<div class="site-info">
 <div class="grid2">
  	<div class="col">
-		<?php echo date('Y'); ?>&nbsp; <span id="footer-copyright"><?php echo esc_html( get_theme_mod( 'copyright_txt', 'All rights reserved' ) ); ?></span>
+        <?php echo date('Y'); ?>&nbsp; <span id="footer-copyright"><?php echo esc_html( get_theme_mod( 'copyright_txt', 'All rights reserved' ) ); ?></span>
+        <?php if( current_user_can( 'manage_options' ) ) { echo '<em><strong>' . get_num_queries() . '</strong> queries in <strong>'; timer_stop( 1 ); echo '</strong> seconds.</em>'; } ?>
 	</div>
 	 <div class="col">
 <?php if ( has_nav_menu( 'social' ) ) {
