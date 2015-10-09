@@ -51,7 +51,7 @@ h1.page-title, .call-action-txt span { color: #dc0067 !important; }
     font-style: normal;
 }
 
-h1 { font-family: 'league_gothic'; letter-spacing: 0.01em; }
+h1 { font-family: 'league_gothic'; letter-spacing: 0.01em; font-weight: 400; }
 
 /**
  * Animated nodes in header
