@@ -107,6 +107,17 @@ h1 { font-family: 'league_gothic'; letter-spacing: 0.01em; font-weight: 400; }
     margin-top: 5px;
 }
 
+    @media only screen and (max-width: 40em) {
+        .title-group {
+            top: 85px;
+        }
+
+        .site-title,
+        .site-description {
+            background-color: rgba( 255, 255, 255, 0.8 );
+        }
+    }
+
 .breadcrumbs {
     display: none;
 }
