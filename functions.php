@@ -15,7 +15,7 @@ function fff_enqueue_scripts() {
     wp_enqueue_script( 'canvas-anim' );
 }
 
-add_action( 'wp_enqueue_scripts', 'fff_enqueue_scripts' );
+//add_action( 'wp_enqueue_scripts', 'fff_enqueue_scripts' );
 
 
 add_action( 'after_setup_theme', function () {
