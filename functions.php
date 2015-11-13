@@ -1,6 +1,18 @@
 <?php
 
 /**
+ * Remove parent styles
+ * (because we use our own plugin for this)
+ */
+function fff_remove_styles() {
+    wp_dequeue_style( 'font-awesome' );
+    wp_deregister_style( 'font-awesome' );
+}
+
+add_action( 'wp_enqueue_scripts', 'fff_remove_styles', 20 );
+
+
+/**
  * Register and enqueue a script that does not depend on a JavaScript library.
  */
 function fff_enqueue_scripts() {
