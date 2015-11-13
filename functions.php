@@ -51,18 +51,22 @@ function fff_hero( $atts ) {
 }
 
 add_shortcode( 'fff_hero', 'fff_hero' );
+
 function fff_icon_widget( $atts ) {
     $atts = shortcode_atts( array(
         'icon'  => 'fa-wordpress',
         'title' => 'Text ^_^',
         'text'  => 'Jean shorts cray whatever viral trust fund lo-fi.',
         'href'  => '#',
+        //'button_color' => 'blue',
+        //'button_text'  => 'weiterlesen'
     ), $atts );
 
     $o = '<div class="ico-box">';
     $o .= '<span class="fa ' . esc_attr( $atts['icon'] ) . '"></span>';
     $o .= '<p class="box-title">' . esc_attr( $atts['title'] ) . '</p>';
     $o .= '<p>' . esc_attr( $atts['text'] ) . '</p>';
+    //$o .= '<a href="' . esc_attr( $atts['href'] ) . '" class="btn ' . esc_attr( $atts['button_color'] ) . '">' . esc_attr( $atts['button_text'] ) . '</a>';
     $o .= '</div><!-- .ico-box -->';
 
     return $o;
