@@ -29,8 +29,8 @@
 
 <div class="out-wrap" style="background: <?php echo esc_attr( get_theme_mod( 'corpobox_headerbg_color', '#f16272' ) ); ?><?php if( !empty($home_image) ) { ?> url(<?php echo esc_url( $home_image );?>); background-position: left top; background-repeat: repeat-x<?php } ?>; ">
 
-<canvas id="canvas" width="1950px" height="180px"></canvas>
-<canvas id="canvasbg" width="1950px" height="180px"></canvas>
+<!-- <canvas id="canvas" width="1745px" height="180px"></canvas>   --> 
+<!-- <canvas id="canvasbg" width="1745px" height="180px"></canvas> -->
 
 <?php if ( has_nav_menu( 'top' ) ) { ?>
 	<div class="top-menu">
